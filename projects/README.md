@@ -1,23 +1,38 @@
 # Full-Stack Projects
 
-This directory contains two parallel tracks of full-stack projects, allowing you to choose between traditional React+Django and modern Next.js+Django approaches.
+This directory contains a comprehensive set of projects to guide you through web development learning, from frontend basics to complex full-stack applications.
+
+## Individual Project Directories
+
+### Frontend Projects
+- **Todo App**: A vanilla JavaScript todo application with local storage
+- **TypeScript App**: A todo application refactored with TypeScript
+
+### Backend Projects
+- **Django Blog**: A full-featured blog application built with Django
+- **Auth System**: A comprehensive authentication system with Django
+
+### Full-Stack Projects
+- **Blog Platform**: A complete React + Django REST blog platform
+- **Portfolio**: A professional portfolio site (empty template for your work)
+- **Final Project**: A capstone SaaS application project
 
 ## Track A: React + Django Projects
 
-### 1. Basic Blog (Week 5-6)
+### 1. Basic Blog
 - React frontend with React Router
 - Django REST Framework backend
 - Basic CRUD operations
 - Simple authentication
 
-### 2. E-commerce Platform (Week 6-7)
+### 2. E-commerce Platform
 - Product catalog
 - Shopping cart
 - User authentication
 - Order management
 - Payment integration
 
-### 3. Social Media Dashboard (Week 7-8)
+### 3. Social Media Dashboard
 - Real-time updates
 - File uploads
 - Complex state management
@@ -26,21 +41,21 @@ This directory contains two parallel tracks of full-stack projects, allowing you
 
 ## Track B: Next.js + Django Projects
 
-### 1. Modern Blog (Week 9)
+### 1. Modern Blog
 - Server-side rendering
 - API routes for simple operations
 - Django as headless CMS
 - Authentication with NextAuth.js
 - SEO optimization
 
-### 2. E-commerce Store (Week 9-10)
+### 2. E-commerce Store
 - Static product pages
 - Dynamic cart management
 - Hybrid rendering
 - Django REST Framework integration
 - Stripe payment integration
 
-### 3. Enterprise Dashboard (Week 10)
+### 3. Enterprise Dashboard
 - Real-time data visualization
 - Server components
 - Complex data fetching
@@ -51,6 +66,13 @@ This directory contains two parallel tracks of full-stack projects, allowing you
 
 ```
 projects/
+├── todo-app/               # Basic JavaScript todo application
+├── typescript-app/         # TypeScript todo application
+├── django-blog/            # Django-based blog
+├── auth-system/            # Authentication system
+├── blog-platform/          # Full-stack blog platform
+├── portfolio/              # Portfolio site template
+├── final-project/          # Capstone project template
 ├── react-django/
 │   ├── blog/
 │   │   ├── frontend/        # React frontend
@@ -72,6 +94,22 @@ projects/
         ├── frontend/
         └── backend/
 ```
+
+## Learning Path
+
+The projects in this directory follow a logical progression:
+
+1. **Frontend Basics**: Todo App → TypeScript App
+2. **Backend Fundamentals**: Django Blog → Auth System
+3. **Full-Stack Integration**: React-Django Projects → NextJS-Django Projects
+4. **Advanced Applications**: Blog Platform → Final Project
+
+Each project includes a detailed README.md with:
+- Project goals and features
+- Technology stack
+- Implementation steps
+- Learning objectives
+- Next steps for enhancement
 
 ## Integration Patterns
 
@@ -135,32 +173,21 @@ npm run dev
 - Automatic static optimization
 - Edge functions support
 
-## Learning Objectives
-
-### React + Django Path
-1. Master REST API design
-2. Handle CORS and security
-3. Manage separate deployments
-4. Implement client-side routing
-5. Handle client-side state
-
-### Next.js + Django Path
-1. Leverage server components
-2. Optimize with static generation
-3. Use hybrid rendering patterns
-4. Implement API routes
-5. Manage server-side state
-
 ## Resources
 
-### React + Django
+### Frontend Development
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Next.js Documentation](https://nextjs.org/docs)
+
+### Backend Development
+- [Django Documentation](https://docs.djangoproject.com/)
 - [Django REST Framework](https://www.django-rest-framework.org/)
-- [React Router](https://reactrouter.com/)
+- [JWT Authentication](https://jwt.io/introduction)
+
+### Full-Stack Resources
 - [Axios](https://axios-http.com/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
-
-### Next.js + Django
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Django as a Headless CMS](https://www.django-cms.org/en/blog/2019/06/19/django-as-headless-cms/)
-- [NextAuth.js](https://next-auth.js.org/)
-- [Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components) 
+- [Docker Documentation](https://docs.docker.com/)
+- [AWS Documentation](https://docs.aws.amazon.com/) 

@@ -1,15 +1,15 @@
-# Week 4-5: API Integration
+# Weeks 4-5: API Integration
 
-This section focuses on building and consuming APIs, the critical bridge between your frontend and backend applications. You'll learn how to design, implement, and interact with different API types.
+This section focuses on API development and integration, bridging the gap between frontend and backend technologies. You'll learn how to design RESTful APIs with Django REST Framework and consume them in your React applications.
 
 ## Learning Path
 
 | Day | Topic | Description |
 |-----|-------|-------------|
-| 22-23 | [REST API Fundamentals](day-22-23-rest-fundamentals/README.md) | Understanding REST principles, HTTP methods, status codes, and designing RESTful endpoints |
-| 24-25 | [Django REST Framework](day-24-25-django-rest/README.md) | Building APIs with Django REST Framework, serializers, viewsets, and authentication |
-| 26-27 | [Consuming APIs in React](day-26-27-react-apis/README.md) | Fetching data, handling states, error boundaries, and state management with APIs |
-| 28-29 | [Advanced API Patterns](day-28-29-advanced-patterns/README.md) | GraphQL, WebSockets, authentication strategies, and API testing |
+| 22-23 | [REST API Fundamentals](day-22-23-rest-fundamentals/README.md) | REST principles, API design, HTTP methods, status codes, and resource modeling |
+| 24-25 | [Django REST Framework](day-24-25-django-rest/README.md) | Serializers, views, viewsets, authentication, and permissions |
+| 26-27 | [Consuming APIs in React](day-26-27-react-apis/README.md) | Fetch API, Axios, handling async data, error handling, and loading states |
+| 28-29 | [Advanced API Patterns](day-28-29-advanced-patterns/README.md) | GraphQL, real-time communication, caching, and performance optimization |
 
 ## Why APIs Matter
 
@@ -17,30 +17,31 @@ APIs (Application Programming Interfaces) are the glue that connects different p
 
 ## What You'll Learn
 
-- HTTP fundamentals and RESTful design principles
-- Building robust APIs with Django REST Framework
-- Consuming APIs effectively in React applications
-- Advanced patterns like GraphQL and real-time communication
-- Authentication and security best practices
-- Testing and documenting APIs
-
-## Prerequisites
-
-Before starting this section, you should be comfortable with:
-
-- React basics (Week 2-3)
-- TypeScript fundamentals (Week 3)
-- Django basics (Week 4)
-- HTTP and basic web concepts
+- REST API design principles and best practices
+- Building APIs with Django REST Framework
+- Consuming APIs in React applications
+- Advanced patterns for API integration
+- Authentication and authorization in APIs
 
 ## Projects
 
 Throughout this section, you'll build:
 
-1. A RESTful API for a task management application
+1. A RESTful API for a blog application with Django REST Framework
 2. A React frontend that consumes your API
-3. Integration tests to verify your API functions correctly
-4. API documentation with Swagger/OpenAPI
+3. An authenticated API with user-specific data
+
+## Prerequisites
+
+Before starting this section, you should be comfortable with:
+
+- React fundamentals (Weeks 2-3)
+- Django basics (Week 4)
+- JavaScript async/await
+
+## Next Steps
+
+After completing this section, you'll move on to [Full-Stack Integration](../week-6-7-fullstack-integration/README.md) where you'll learn how to build complete full-stack applications.
 
 ## How This Connects The Stack
 
